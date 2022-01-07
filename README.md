@@ -1,2 +1,0 @@
-# monattestationcovid
-attestationcovid
