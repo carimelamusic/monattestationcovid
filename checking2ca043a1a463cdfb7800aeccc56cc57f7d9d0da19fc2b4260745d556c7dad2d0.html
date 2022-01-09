@@ -5,25 +5,34 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../../cdn.jsdelivr.net/npm/bootstrap%404.6.0/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="responsive-full-background-image.css">
 </head>
 <body>
- 
 <style>
-    main {
-    background-image: url("../img/attestations_bonganou_doctrove.png");
+
+
+    body {
+  /* Location of the image */
+  background-image: url("img/attestations_bonganou_doctrove.png");
+  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#464646;
+
 }
-
-
-</style>
-
-
-<main>
-    
-
-    
-</main>
-   
+</style>   
 
 </body>
 
