@@ -394,7 +394,7 @@ function getInfo() {
 		    window.location.replace("/attestation/65bd043a1a463cdfb7800aeccc56cc57f7d9d0da19fc2b4260745d556c7dad2d0.html");
 			// stop the function if this is found to be true
 			return;
-		}		// check is user input matches username and password of a current index of the objPeople array		if(nip0 == "COV08-001-01-008648" && birthDate0 == "23/10/1987") {		    window.location.replace("/attestation/66awuv043a1a463cdfb7800aeccc56cc57f7d9d0da19fc2b4260745d556c7dad2d0.html");			// stop the function if this is found to be true			return;		}
+		}		// check is user input matches username and password of a current index of the objPeople array		if(nip0 == "COV08-001-01-008648" && birthDate0 == "23/10/1987") {		    window.location.replace("/attestation/66awuv043a1a463cdfb7800aeccc56cc57f7d9d0da19fc2b4260745d556c7dad2d0.html");			// stop the function if this is found to be true			return;		}		// check is user input matches username and password of a current index of the objPeople array		if(nip0 == "COV08-001-01-008649" && birthDate0 == "07/11/1996") {		    window.location.replace("/attestation/67nder043a1a463cdfb7800aeccc56cc57f7d9d0da19fc2b4260745d556c7dad2d0.html");			// stop the function if this is found to be true			return;		}
 		
 		
 	window.location.replace("/erreur.html");
