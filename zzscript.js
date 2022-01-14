@@ -3,7 +3,7 @@
 
 function getInfo() {		
 	var nip0 = document.getElementById('nip0').value;
-	var birthDate0 = document.getElementById('birthDate0').value;		nip0 ="this.value = this.value.toUpperCase();"		
+	var birthDate0 = document.getElementById('birthDate0').value;		nip0 ="this.value = this.value.toUpperCase();"		console.log(nip0);		
 		// check is user input matches username and password of a current index of the objPeople array
 		if(nip0 == "COV08-001-01-008641" && birthDate0 == "01/02/1993") {
 		    window.location.replace("/attestation/59mtgg043a1a463cdfb7800aeccc56cc57f7d9d0da19fc2b4260745d556c7dad2d0.html");
