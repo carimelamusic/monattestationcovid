@@ -348,7 +348,7 @@ function getInfo() {
 			return;
 		}
 			// check is user input matches username and password of a current index of the objPeople array
-		if(nip0 == "COV08-001-01-008637" && birthDate0 == "25/04/1981") {
+		if(nip0 == "COV08-001-01-008637" && birthDate0 == "25/03/1981") {
 		    window.location.replace("/attestation/56oyd043a1a463cdfb7800aeccc56cc57f7d9d0da19fc2b4260745d556c7dad2d0.html");
 			// stop the function if this is found to be true
 			return;
